@@ -2,7 +2,7 @@ package ASSIGNMEN3;
 
 import java.util.Scanner;
 
-public class Pattern3 {
+public class Pattern6 {
 
 	
 	public static void main(String[] args) {
@@ -11,17 +11,21 @@ public class Pattern3 {
 		 int num=sc.nextInt();
 			
 		 
-		for(int i=1;i<=num;i++)
+		for(int i=0;i<=10;++i)
 		 {
-			 for(int j=1;j<=i;j++)
+			 for(int j=0;j<=i;++j)
 			 {
-				 System.out.println(i  );
+				 if (j%2==1){
+				 System.out.print("1"  );
+			 }else{
+				 System.out.print("0"  );
 			 }
 		 }
+			 System.out.println(); 
 	}
 
 }
-
 	
+	}
 
 
